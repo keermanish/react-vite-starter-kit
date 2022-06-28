@@ -5,7 +5,8 @@
   "scripts": {
     "prepare": "husky install",
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build:staging": "tsc && vite build --mode staging",
+    "build:production": "tsc && vite build --mode production",
     "preview": "vite preview"
   },
   "dependencies": {
