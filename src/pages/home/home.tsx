@@ -2,7 +2,7 @@ import { useState } from 'react';
 import logo from '../../assets/images/logo.svg';
 import './home.css';
 
-import Greeting from '../../components/greeting/greeting';
+import Greeting from '@components/greeting/greeting';
 
 function App() {
   const [count, setCount] = useState(0);

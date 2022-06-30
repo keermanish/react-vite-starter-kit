@@ -1,7 +1,7 @@
 import { Route, Switch } from 'wouter';
 
 import Home from './pages/home/home';
-import NotFound from './pages/notFound/notFound';
+import NotFound from './pages/not-found/not-found';
 
 export default () => {
   return (
