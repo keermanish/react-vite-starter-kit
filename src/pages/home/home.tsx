@@ -2,7 +2,7 @@ import { useState } from 'react';
 import logo from '../../assets/images/logo.svg';
 import './home.css';
 
-import Greeting from '@components/greeting/greeting';
+import Greeting from '@/components/greeting/greeting';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,17 +12,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Greeting
-          message={`Hey Hi!! You are running in ${
-            import.meta.env.VITE_APP_MODE
-          } mode`}
+          message={`Hey Hi!! You are running in ${process.env.VITE_APP_MODE} mode`}
         />
         <p>
           <button type="button" onClick={() => setCount(count => count + 1)}>
             count is: {count}
           </button>
-        </p>
-        <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
         </p>
         <p>
           <a
