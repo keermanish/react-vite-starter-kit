@@ -8,13 +8,14 @@ Intention is to have some light-weight starter kit for any react (static) applic
 - TypeScript
 - Vite
 - wouter
+- Jest + testing-library/react
 - Prettier
 - ESLint and StyleLint
 - husky with lint-staged
 
 ## How to start
 
-- Fork and clone this repo
+- Fork and clone this repo and then:
 - `nvm use` (make sure you have latest node 17 OR `nvm` installed)
 - `npm i`
 - `npm run dev`
