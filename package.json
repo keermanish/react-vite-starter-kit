@@ -8,7 +8,11 @@
     "build:staging": "tsc && vite build --mode staging",
     "build:production": "tsc && vite build --mode production",
     "preview": "vite preview",
-    "test": "jest"
+    "test": "jest",
+    "prettier:check": "prettier '**/*' --check --ignore-unknown",
+    "prettier:fix": "prettier '**/*' --write --ignore-unknown",
+    "lint:check": "eslint '*.{js,ts,jsx,tsx,json}' 'src/**/*.{js,ts,jsx,tsx,json}'",
+    "lint:fix": "eslint --fix '*.{js,ts,jsx,tsx,json}' 'src/**/*.{js,ts,jsx,tsx,json}'"
   },
   "dependencies": {
     "react": "^18.0.0",
