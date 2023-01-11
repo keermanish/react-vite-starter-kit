@@ -8,7 +8,7 @@ Faster :rocket: build time, type-safe, linting, etc, are the things which have b
 - React 18 (latest)
 - TypeScript
 - Vite
-- wouter (opinionated, just to keep bundle smaller)
+- wouter (opinionated, just to keep bundle smaller, but you can replace this with any routing lib its just a npm package)
 - Jest + testing-library/react
 - Prettier, ESLint and StyleLint
 - husky with lint-staged, and git actions
